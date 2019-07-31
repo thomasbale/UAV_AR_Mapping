@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Survey views-->
+        <!--Survey view-->
         <scene sceneID="FqJ-8z-6xT">
             <objects>
                 <tableViewController id="mrE-Fu-rWb" sceneMemberID="viewController">
@@ -109,7 +109,7 @@
                             <outlet property="delegate" destination="mrE-Fu-rWb" id="nSk-ac-K75"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Survey views" id="jPV-ED-W1e"/>
+                    <navigationItem key="navigationItem" title="Survey view" id="jPV-ED-W1e"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TjF-ON-XWP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -130,6 +130,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tLh-jg-aKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-666" y="-385"/>
+        </scene>
+        <!--Survey Table View Controller-->
+        <scene sceneID="U2c-IF-Usf">
+            <objects>
+                <tableViewController id="9Q5-Oi-zdB" customClass="SurveyTableViewController" customModule="Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="u8x-B6-GYh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="TAl-bM-L7U">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TAl-bM-L7U" id="zyw-2S-y27">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="9Q5-Oi-zdB" id="erX-Hq-Lfi"/>
+                            <outlet property="delegate" destination="9Q5-Oi-zdB" id="mcl-bY-xOx"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cgF-Ua-uG4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3516" y="-416"/>
+        </scene>
+        <!--Expanded Survey View Controller-->
+        <scene sceneID="pyw-YH-o97">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="nHV-Cm-Hzm" customClass="ExpandedSurveyViewController" customModule="Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HR4-Ii-ogt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBy-7E-XQ5">
+                                <rect key="frame" x="284" y="617" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Expanded view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khn-mG-Qay">
+                                <rect key="frame" x="129" y="252" width="116" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="m5N-8S-yZy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ikb-6H-l1n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2735.1999999999998" y="-422.33883058470769"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="042-ha-dDX">

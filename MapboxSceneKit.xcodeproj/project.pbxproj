@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2219072422F1B9730059A885 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072322F1B9730059A885 /* Survey.swift */; };
+		2219072522F1B9730059A885 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072322F1B9730059A885 /* Survey.swift */; };
+		2219072622F1B9730059A885 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072322F1B9730059A885 /* Survey.swift */; };
+		2219072822F1BD410059A885 /* ExpandedSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */; };
+		2219072922F1BD410059A885 /* ExpandedSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */; };
+		2219072A22F1BD410059A885 /* ExpandedSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */; };
+		2219072C22F1BD860059A885 /* SurveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072B22F1BD860059A885 /* SurveyTableViewController.swift */; };
+		2219072D22F1BD860059A885 /* SurveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072B22F1BD860059A885 /* SurveyTableViewController.swift */; };
+		2219072E22F1BD860059A885 /* SurveyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219072B22F1BD860059A885 /* SurveyTableViewController.swift */; };
 		223E882D22F1AC0600581CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E882C22F1AC0600581CA5 /* AppDelegate.swift */; };
 		223E882F22F1AC0600581CA5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 223E882E22F1AC0600581CA5 /* art.scnassets */; };
 		223E883122F1AC0600581CA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E883022F1AC0600581CA5 /* ViewController.swift */; };
@@ -75,6 +84,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2219072322F1B9730059A885 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedSurveyViewController.swift; sourceTree = "<group>"; };
+		2219072B22F1BD860059A885 /* SurveyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTableViewController.swift; sourceTree = "<group>"; };
 		223E882A22F1AC0600581CA5 /* UAV_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UAV_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		223E882C22F1AC0600581CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		223E882E22F1AC0600581CA5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -164,11 +176,14 @@
 			path = UAV_Map;
 			sourceTree = "<group>";
 		};
-		223E883E22F1AE7500581CA5 /* Survey_Mata */ = {
+		223E883E22F1AE7500581CA5 /* Survey_Data */ = {
 			isa = PBXGroup;
 			children = (
+				2219072322F1B9730059A885 /* Survey.swift */,
+				2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */,
+				2219072B22F1BD860059A885 /* SurveyTableViewController.swift */,
 			);
-			path = Survey_Mata;
+			path = Survey_Data;
 			sourceTree = "<group>";
 		};
 		81293BC720B4A1AE0014A17A /* UAV_AR_Mapping */ = {
@@ -213,7 +228,7 @@
 		81A436B220A1F68500F42A53 = {
 			isa = PBXGroup;
 			children = (
-				223E883E22F1AE7500581CA5 /* Survey_Mata */,
+				223E883E22F1AE7500581CA5 /* Survey_Data */,
 				81293BC720B4A1AE0014A17A /* UAV_AR_Mapping */,
 				81A436BE20A1F68500F42A53 /* MapboxSceneKit */,
 				223E882B22F1AC0600581CA5 /* UAV_Map */,
@@ -466,8 +481,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2219072E22F1BD860059A885 /* SurveyTableViewController.swift in Sources */,
+				2219072622F1B9730059A885 /* Survey.swift in Sources */,
 				223E883122F1AC0600581CA5 /* ViewController.swift in Sources */,
 				223E882D22F1AC0600581CA5 /* AppDelegate.swift in Sources */,
+				2219072A22F1BD410059A885 /* ExpandedSurveyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,8 +500,11 @@
 				81293BF420B4A35C0014A17A /* TerrainmapViewController.swift in Sources */,
 				817BC09220BDC435005A015D /* SCNExtensions.swift in Sources */,
 				81293BF520B4A35C0014A17A /* DataMapViewController.swift in Sources */,
+				2219072522F1B9730059A885 /* Survey.swift in Sources */,
 				9569513E2148827800D567AE /* ARViewController.swift in Sources */,
+				2219072922F1BD410059A885 /* ExpandedSurveyViewController.swift in Sources */,
 				9569513F2148828200D567AE /* FocusSquare.swift in Sources */,
+				2219072D22F1BD860059A885 /* SurveyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,8 +519,11 @@
 				81A4371720A1FAB700F42A53 /* Math.swift in Sources */,
 				957C85EC2146FF92004C548E /* TerrainNodeExtension+Routes.swift in Sources */,
 				954A248021484C210050025E /* PolylineCylinder.swift in Sources */,
+				2219072822F1BD410059A885 /* ExpandedSurveyViewController.swift in Sources */,
+				2219072422F1B9730059A885 /* Survey.swift in Sources */,
 				814D9F2720A48538008E6848 /* ImageBuilder.swift in Sources */,
 				81A4372A20A2444B00F42A53 /* HTTPRequestOperation.swift in Sources */,
+				2219072C22F1BD860059A885 /* SurveyTableViewController.swift in Sources */,
 				81A4372520A243E100F42A53 /* AsyncOperation.swift in Sources */,
 				81A4372320A243B200F42A53 /* MapboxHTTPAPI.swift in Sources */,
 				957C85E82146FF92004C548E /* PolylineShader.swift in Sources */,
