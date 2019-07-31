@@ -17,7 +17,10 @@ struct Survey{
 
 func getSurveys()->[Survey]{
     let newsurvey = Survey(name: "Peak District", description: "Description", long: 36.063770, lat: -84.120842)
+    let newsurvey1 = Survey(name: "Peak District", description: "Description", long: 36.063770, lat: -84.120842)
+
     var array = [Survey]()
     array.append(newsurvey)
+    array.append(newsurvey1)
     return array
 }

@@ -1,5 +1,5 @@
 //
-//  ExpandedSurveyViewController.swift
+//  CreateNewSurveyViewController.swift
 //  MapboxSceneKit
 //
 //  Created by Thomas Bale on 31/07/2019.
@@ -8,12 +8,7 @@
 
 import UIKit
 
-class ExpandedSurveyViewController: UIViewController {
-    
-    //var secondViewController = ExpandedSurveyViewController()
-    let TapSegueIdentifier = "showMasterVC"
-    
-    var activeSurvey = Survey()
+class CreateNewSurveyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +16,7 @@ class ExpandedSurveyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func ContinueButton(_ sender: Any) {
-        
-        self.performSegue(withIdentifier: TapSegueIdentifier, sender: self)
-        
-    }
-    
+
     /*
     // MARK: - Navigation
 

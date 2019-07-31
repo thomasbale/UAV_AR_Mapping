@@ -14,6 +14,7 @@ class DemoHeightmapViewController: UIViewController {
     private var progressHandler: ProgressCompositor!
 
     private let styles = ["mapbox/outdoors-v10", "mapbox/satellite-v9", "mapbox/navigation-preview-day-v2"]
+    
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -45,8 +46,8 @@ class DemoHeightmapViewController: UIViewController {
         sceneView.showsStatistics = true
 
         //Set up initial terrain and materials
-        let terrainNode = TerrainNode(minLat: 50.044660402821592, maxLat: 50.120873988090956,
-                                      minLon: -122.99017089272466, maxLon: -122.86824490727534)
+        let terrainNode = TerrainNode(minLat: 51.441338, maxLat: 51.467112,
+                                      minLon: -2.613476, maxLon: -2.575860)
         terrainNode.position = SCNVector3(0, 500, 0)
         terrainNode.geometry?.materials = defaultMaterials()
         scene.rootNode.addChildNode(terrainNode)

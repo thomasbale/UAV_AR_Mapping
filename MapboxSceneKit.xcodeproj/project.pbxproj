@@ -22,6 +22,10 @@
 		223E883422F1AC0600581CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223E883222F1AC0600581CA5 /* Main.storyboard */; };
 		223E883622F1AC0800581CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223E883522F1AC0800581CA5 /* Assets.xcassets */; };
 		223E883922F1AC0800581CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223E883722F1AC0800581CA5 /* LaunchScreen.storyboard */; };
+		2278BF1522F1CEEF00732663 /* CreateNewSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278BF1422F1CEEF00732663 /* CreateNewSurveyViewController.swift */; };
+		2278BF1622F1CEEF00732663 /* CreateNewSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278BF1422F1CEEF00732663 /* CreateNewSurveyViewController.swift */; };
+		2278BF1722F1CEEF00732663 /* CreateNewSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278BF1422F1CEEF00732663 /* CreateNewSurveyViewController.swift */; };
+		22DCBBE922F1C4540081B554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81293BCF20B4A1AE0014A17A /* Main.storyboard */; };
 		81293BEC20B4A1FB0014A17A /* MapboxSceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A436BC20A1F68500F42A53 /* MapboxSceneKit.framework */; };
 		81293BF120B4A29C0014A17A /* MapboxSceneKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81A436BC20A1F68500F42A53 /* MapboxSceneKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		81293BF320B4A35C0014A17A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BC920B4A1AE0014A17A /* MapViewController.swift */; };
@@ -84,9 +88,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2219072322F1B9730059A885 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
-		2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedSurveyViewController.swift; sourceTree = "<group>"; };
-		2219072B22F1BD860059A885 /* SurveyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTableViewController.swift; sourceTree = "<group>"; };
+		2219072322F1B9730059A885 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Survey.swift; path = Survey_Data/Survey.swift; sourceTree = SOURCE_ROOT; };
+		2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExpandedSurveyViewController.swift; path = Survey_Data/ExpandedSurveyViewController.swift; sourceTree = SOURCE_ROOT; };
+		2219072B22F1BD860059A885 /* SurveyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SurveyTableViewController.swift; path = Survey_Data/SurveyTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		223E882A22F1AC0600581CA5 /* UAV_Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UAV_Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		223E882C22F1AC0600581CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		223E882E22F1AC0600581CA5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 		223E883522F1AC0800581CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		223E883822F1AC0800581CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		223E883A22F1AC0800581CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2278BF1422F1CEEF00732663 /* CreateNewSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewSurveyViewController.swift; sourceTree = "<group>"; };
 		81293BC820B4A1AE0014A17A /* TerrainmapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrainmapViewController.swift; sourceTree = "<group>"; };
 		81293BC920B4A1AE0014A17A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		81293BCB20B4A1AE0014A17A /* ProgressCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCompositor.swift; sourceTree = "<group>"; };
@@ -181,6 +186,7 @@
 			children = (
 				2219072322F1B9730059A885 /* Survey.swift */,
 				2219072722F1BD410059A885 /* ExpandedSurveyViewController.swift */,
+				2278BF1422F1CEEF00732663 /* CreateNewSurveyViewController.swift */,
 				2219072B22F1BD860059A885 /* SurveyTableViewController.swift */,
 			);
 			path = Survey_Data;
@@ -435,6 +441,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DCBBE922F1C4540081B554 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +491,7 @@
 				2219072E22F1BD860059A885 /* SurveyTableViewController.swift in Sources */,
 				2219072622F1B9730059A885 /* Survey.swift in Sources */,
 				223E883122F1AC0600581CA5 /* ViewController.swift in Sources */,
+				2278BF1722F1CEEF00732663 /* CreateNewSurveyViewController.swift in Sources */,
 				223E882D22F1AC0600581CA5 /* AppDelegate.swift in Sources */,
 				2219072A22F1BD410059A885 /* ExpandedSurveyViewController.swift in Sources */,
 			);
@@ -496,6 +504,7 @@
 				81293BF320B4A35C0014A17A /* MapViewController.swift in Sources */,
 				81293BF820B4A35C0014A17A /* TerrainDemoScene.swift in Sources */,
 				81293BF720B4A35C0014A17A /* ProgressCompositor.swift in Sources */,
+				2278BF1622F1CEEF00732663 /* CreateNewSurveyViewController.swift in Sources */,
 				8190075F20C07FAD002F23C3 /* AppDelegate.swift in Sources */,
 				81293BF420B4A35C0014A17A /* TerrainmapViewController.swift in Sources */,
 				817BC09220BDC435005A015D /* SCNExtensions.swift in Sources */,
@@ -531,6 +540,7 @@
 				9598A005215EB4E80086CF4E /* StaticConstants.swift in Sources */,
 				957C85EA2146FF92004C548E /* SCNProgramExtensions.swift in Sources */,
 				814F3BD520ADF1B40006DDFD /* MapboxImageAPI.swift in Sources */,
+				2278BF1522F1CEEF00732663 /* CreateNewSurveyViewController.swift in Sources */,
 				957C85EB2146FF92004C548E /* BezierSpline3D.swift in Sources */,
 				81CCF68720AA99CD00194B22 /* CGExtensions.swift in Sources */,
 			);

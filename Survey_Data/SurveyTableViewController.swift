@@ -10,14 +10,14 @@ import UIKit
 import CoreData
 
 
-class EventTableViewController: UITableViewController {
+class SurveyTableViewController: UITableViewController {
 
-    let TapSegueIdentifier = "showEventViewController"
     var secondViewController = ExpandedSurveyViewController()
     
     // for testing the location ID is specified in the source
     
     let surveys:[Survey] = getSurveys()
+    let TapSegueIdentifier = "showSurveyViewController"
     
     override func viewDidLoad() {
         super.viewDidLoad()
