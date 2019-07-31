@@ -15,9 +15,9 @@
 		223E883922F1AC0800581CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223E883722F1AC0800581CA5 /* LaunchScreen.storyboard */; };
 		81293BEC20B4A1FB0014A17A /* MapboxSceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A436BC20A1F68500F42A53 /* MapboxSceneKit.framework */; };
 		81293BF120B4A29C0014A17A /* MapboxSceneKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81A436BC20A1F68500F42A53 /* MapboxSceneKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		81293BF320B4A35C0014A17A /* DemoStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BC920B4A1AE0014A17A /* DemoStyleViewController.swift */; };
-		81293BF420B4A35C0014A17A /* DemoHeightmapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BC820B4A1AE0014A17A /* DemoHeightmapViewController.swift */; };
-		81293BF520B4A35C0014A17A /* DemoPlacementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BD120B4A1AE0014A17A /* DemoPlacementViewController.swift */; };
+		81293BF320B4A35C0014A17A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BC920B4A1AE0014A17A /* MapViewController.swift */; };
+		81293BF420B4A35C0014A17A /* TerrainmapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BC820B4A1AE0014A17A /* TerrainmapViewController.swift */; };
+		81293BF520B4A35C0014A17A /* DataMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BD120B4A1AE0014A17A /* DataMapViewController.swift */; };
 		81293BF720B4A35C0014A17A /* ProgressCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BCB20B4A1AE0014A17A /* ProgressCompositor.swift */; };
 		81293BF820B4A35C0014A17A /* TerrainDemoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81293BD220B4A1AE0014A17A /* TerrainDemoScene.swift */; };
 		81293BFF20B4B3D20014A17A /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81293BFD20B4B3C10014A17A /* MapboxMobileEvents.framework */; };
@@ -38,7 +38,7 @@
 		81CCF68720AA99CD00194B22 /* CGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CCF68620AA99CD00194B22 /* CGExtensions.swift */; };
 		954A248021484C210050025E /* PolylineCylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954A247F21484C210050025E /* PolylineCylinder.swift */; };
 		954A248221484F330050025E /* PolylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954A248121484F330050025E /* PolylineNode.swift */; };
-		9569513E2148827800D567AE /* DemoARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817BC08D20BDC071005A015D /* DemoARViewController.swift */; };
+		9569513E2148827800D567AE /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817BC08D20BDC071005A015D /* ARViewController.swift */; };
 		9569513F2148828200D567AE /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817BC08F20BDC413005A015D /* FocusSquare.swift */; };
 		957C85E82146FF92004C548E /* PolylineShader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957C85E22146FF92004C548E /* PolylineShader.swift */; };
 		957C85E92146FF92004C548E /* unlit-line.metal in Sources */ = {isa = PBXBuildFile; fileRef = 957C85E42146FF92004C548E /* unlit-line.metal */; };
@@ -83,13 +83,13 @@
 		223E883522F1AC0800581CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		223E883822F1AC0800581CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		223E883A22F1AC0800581CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81293BC820B4A1AE0014A17A /* DemoHeightmapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoHeightmapViewController.swift; sourceTree = "<group>"; };
-		81293BC920B4A1AE0014A17A /* DemoStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoStyleViewController.swift; sourceTree = "<group>"; };
+		81293BC820B4A1AE0014A17A /* TerrainmapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrainmapViewController.swift; sourceTree = "<group>"; };
+		81293BC920B4A1AE0014A17A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		81293BCB20B4A1AE0014A17A /* ProgressCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCompositor.swift; sourceTree = "<group>"; };
 		81293BCC20B4A1AE0014A17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81293BCE20B4A1AE0014A17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81293BD020B4A1AE0014A17A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		81293BD120B4A1AE0014A17A /* DemoPlacementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPlacementViewController.swift; sourceTree = "<group>"; };
+		81293BD120B4A1AE0014A17A /* DataMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMapViewController.swift; sourceTree = "<group>"; };
 		81293BD220B4A1AE0014A17A /* TerrainDemoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrainDemoScene.swift; sourceTree = "<group>"; };
 		81293BD320B4A1AE0014A17A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81293BD420B4A1AE0014A17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		81293BFD20B4B3C10014A17A /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxMobileEvents.framework; path = Carthage/Build/iOS/MapboxMobileEvents.framework; sourceTree = "<group>"; };
 		814D9F2620A48538008E6848 /* ImageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBuilder.swift; sourceTree = "<group>"; };
 		814F3BD420ADF1B40006DDFD /* MapboxImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxImageAPI.swift; sourceTree = "<group>"; };
-		817BC08D20BDC071005A015D /* DemoARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoARViewController.swift; sourceTree = "<group>"; };
+		817BC08D20BDC071005A015D /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		817BC08F20BDC413005A015D /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 		817BC09120BDC435005A015D /* SCNExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNExtensions.swift; sourceTree = "<group>"; };
 		81A436BC20A1F68500F42A53 /* MapboxSceneKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxSceneKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,10 +175,10 @@
 			isa = PBXGroup;
 			children = (
 				81293BD320B4A1AE0014A17A /* AppDelegate.swift */,
-				81293BC920B4A1AE0014A17A /* DemoStyleViewController.swift */,
-				81293BC820B4A1AE0014A17A /* DemoHeightmapViewController.swift */,
-				81293BD120B4A1AE0014A17A /* DemoPlacementViewController.swift */,
-				817BC08D20BDC071005A015D /* DemoARViewController.swift */,
+				81293BC920B4A1AE0014A17A /* MapViewController.swift */,
+				81293BC820B4A1AE0014A17A /* TerrainmapViewController.swift */,
+				81293BD120B4A1AE0014A17A /* DataMapViewController.swift */,
+				817BC08D20BDC071005A015D /* ARViewController.swift */,
 				817BC08F20BDC413005A015D /* FocusSquare.swift */,
 				81293BD220B4A1AE0014A17A /* TerrainDemoScene.swift */,
 				81293BCB20B4A1AE0014A17A /* ProgressCompositor.swift */,
@@ -475,14 +475,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81293BF320B4A35C0014A17A /* DemoStyleViewController.swift in Sources */,
+				81293BF320B4A35C0014A17A /* MapViewController.swift in Sources */,
 				81293BF820B4A35C0014A17A /* TerrainDemoScene.swift in Sources */,
 				81293BF720B4A35C0014A17A /* ProgressCompositor.swift in Sources */,
 				8190075F20C07FAD002F23C3 /* AppDelegate.swift in Sources */,
-				81293BF420B4A35C0014A17A /* DemoHeightmapViewController.swift in Sources */,
+				81293BF420B4A35C0014A17A /* TerrainmapViewController.swift in Sources */,
 				817BC09220BDC435005A015D /* SCNExtensions.swift in Sources */,
-				81293BF520B4A35C0014A17A /* DemoPlacementViewController.swift in Sources */,
-				9569513E2148827800D567AE /* DemoARViewController.swift in Sources */,
+				81293BF520B4A35C0014A17A /* DataMapViewController.swift in Sources */,
+				9569513E2148827800D567AE /* ARViewController.swift in Sources */,
 				9569513F2148828200D567AE /* FocusSquare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
