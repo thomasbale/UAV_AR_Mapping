@@ -16,6 +16,9 @@ class DemoStyleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //
+        print(Surveys.sharedManager.current_survey)
 
         guard let sceneView = sceneView else {
             return

@@ -19,8 +19,11 @@ class SurveyTableViewController: UITableViewController {
     let surveys:[Survey] = getSurveys()
     let TapSegueIdentifier = "showSurveyViewController"
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(Surveys.sharedManager.current_survey)
         /*
          //check database is connected
          guard container != nil else {

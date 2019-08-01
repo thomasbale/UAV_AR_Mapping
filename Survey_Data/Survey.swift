@@ -8,6 +8,19 @@
 
 import Foundation
 
+class Surveys {
+    
+    var all_surveys = getSurveys()
+    var current_survey = String("string::")
+
+    class var sharedManager: Surveys {
+        struct Static {
+            static let instance = Surveys()
+        }
+        return Static.instance
+    }
+}
+
 struct Survey{
     var name = String()
     var description = String()
